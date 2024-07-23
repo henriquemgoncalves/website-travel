@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import ComoFunciona from './components/ComoFunciona';
+import Contato from './components/Contato';
+import HeroSite from './components/HeroSite';
+import NavBar from './components/NavBar';
+import Paraiso from './components/Paraiso';
+import Rodape from './components/Rodape';
+import Vantagens from './components/Vantagens';
+
+// Tecnologias utilizadas:
+// - React
+// - React-icons
+// - React Hooks ( useState , useEffect )
+// - Styled Components
+// - Resposividade
+// - AOS
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+      <HeroSite/>
+      <Vantagens/>
+      <Contato/>
+      <Paraiso/>
+      <ComoFunciona/>
+      <Rodape/>
     </div>
   );
 }
