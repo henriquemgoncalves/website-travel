@@ -42,6 +42,8 @@ const ContMod = styled.section`
         border-radius: 5px;
         cursor: pointer;
         transition: .5s;
+        border: 1px solid #000;
+        color: #000;
     }
 
     button:hover{
